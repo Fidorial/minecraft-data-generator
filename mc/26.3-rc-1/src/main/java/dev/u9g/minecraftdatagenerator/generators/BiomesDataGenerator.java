@@ -2,17 +2,17 @@ package dev.u9g.minecraftdatagenerator.generators;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import org.joml.Vector3fc;
 import dev.u9g.minecraftdatagenerator.util.DGU;
-import net.minecraft.util.ARGB;
 import net.minecraft.core.Registry;
 import net.minecraft.core.RegistryAccess;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.Identifier;
 import net.minecraft.tags.BiomeTags;
-import net.minecraft.world.attribute.EnvironmentAttributes;
+import net.minecraft.util.ARGB;
 import net.minecraft.world.attribute.EnvironmentAttributeMap;
+import net.minecraft.world.attribute.EnvironmentAttributes;
 import net.minecraft.world.level.biome.Biome;
+import org.joml.Vector3fc;
 
 public class BiomesDataGenerator implements IDataGenerator {
     private static String guessBiomeDimensionFromCategory(Biome biome) {
